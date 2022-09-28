@@ -420,11 +420,11 @@ def compute_batch_ap(image_ids):
         APs.append(AP)
         Precision.append(precisions)
         Recall.append(recalls)
-    return APs, Precision, Recall
+    return APs
 
 
 # Pick a set of random images
 #image_ids = np.random.choice(dataset.image_ids, 10)
 APs,Pre,Rec = compute_batch_ap(dataset.image_ids)
 APs
-print("mAP @ IoU=50: ", np.mean(APs),"Precision: ", np.mean(Pre),"Recall: ", np.mean(Rec))
+print("mAP @ IoU=50: ", np.mean(APs))
