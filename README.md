@@ -1,16 +1,17 @@
-# Mask-RCNN-on-Custom-Dataset-2classes-
+# Mask-RCNN for Emotion Recognition
 
-1- Download mrcnn folder from https://github.com/matterport/Mask_RCNN
+1- Create dataset folder. Under dataset folder -> Create 3 folders "train", "val" and "test"
 
-2- Download coco weights
+2- Put training images in train folder
 
-3- Create dataset folder. Under dataset folder -> Create 2 folders "train" and "val".
+3- Put validation images in val folder
 
-4- Put training images in train folder.
+4- Put testing images in the test folder
 
-5- Put validation images in val folder
+5- Use VGGAnnotator tool for Polygon Annotations: https://www.robots.ox.ac.uk/~vgg/software/via/
 
-6- Use VGGAnnotator tool for Annotations.
+6- For more information visit the official MRCNN repo: https://github.com/matterport/Mask_RCNN
 
-## To understand the functionality, Check this video:  https://youtu.be/t1MrzuAUdoE
+7- Like to the dataset used: https://www.kdef.se/
 
+8- Use the Data Sorting file to retain the frontal images only
