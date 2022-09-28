@@ -10,8 +10,8 @@
 
 5- Use VGGAnnotator tool for Polygon Annotations: https://www.robots.ox.ac.uk/~vgg/software/via/
 
-6- For more information visit the official MRCNN repo: https://github.com/matterport/Mask_RCNN
+6- Dataset Link: https://www.kdef.se/
 
-7- Like to the dataset used: https://www.kdef.se/
+7- Use the Data Sorting file to retain the frontal images only
 
-8- Use the Data Sorting file to retain the frontal images only
+8- For more information visit the official MRCNN repo: https://github.com/matterport/Mask_RCNN
